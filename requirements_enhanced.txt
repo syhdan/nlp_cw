@@ -1,0 +1,16 @@
+# Requirements for Enhanced RoBERTa Script
+# Compatible with transformers 4.30+
+# Does NOT require simpletransformers
+
+torch>=2.0.0
+transformers>=4.30.0
+pandas>=1.5.0
+scikit-learn>=1.2.0
+tqdm>=4.65.0
+numpy>=1.24.0
+
+# For backtranslation augmentation
+sentencepiece>=0.1.99
+
+# Optional: for visualization
+matplotlib>=3.7.0
